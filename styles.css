@@ -1,0 +1,14 @@
+/*CSS*/
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.border {
+    border: 3px dotted blue;
+}
+
