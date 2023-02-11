@@ -7,8 +7,23 @@ body {
     display: flex;
     justify-content: space-around;
 }
-
-.border {
+/*BORDERS*/
+.border-b {
     border: 3px dotted blue;
 }
+.border-o {
+    border: 3px dotted orange;
+}
+
+.border-g {
+    border: 3px dotted green;
+}
+
+.border-p { 
+    border: 3px dotted pink;
+}
+.border-y {
+    border: 3px dotted yellow;
+}
+
 

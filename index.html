@@ -2,31 +2,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="container border">
-            <div class="border">
+        <div class="container border-b">
+            <div class="border-o">
                 <h3>HOME</h3>
-                <div>
-                    <p id="home-score"></p>
+                <div class="border-y">
+                    <h2 id="home-score" class="border-p">0</h2>
                 </div>
                 <div>
-                    <button onclick="add1()">+1</button>
-                    <button onclick="add2()">+2</button>
-                    <button onclick="add3()">+3</button>
+                    <button onclick="add1H()">+1</button>
+                    <button onclick="add2H()">+2</button>
+                    <button onclick="add3H()">+3</button>
                 </div>
                 
             </div>
-            <div class="border">
+            <div class="border-g">
                 <h3>AWAY</h3>
-                <div>
-                    <p id="away-score"></p>
+                <div class="border-y">
+                    <h2 id="away-score" class="border-p">0</h2>
                 </div>
                 <div>
-                    <button onclick="add1()">+1</button>
-                    <button onclick="add2()">+2</button>
-                    <button onclick="add3()">+3</button>
+                    <button onclick="add1A()">+1</button>
+                    <button onclick="add2A()">+2</button>
+                    <button onclick="add3A()">+3</button>
                 </div>
             </div>
         </div>
